@@ -1,0 +1,149 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+html {
+  height: 100%;
+  width: 100%;
+
+  --debug-hit-box:  none;
+}
+
+body {
+  background-image: url('/basement.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+body {
+  color: white;
+  font-family: Verdana, serif;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+  width: 100%;
+}
+
+/* Table stuff */
+#table {
+  background: url('/sprites/table/table_closed.png') no-repeat;
+  background-size: auto 100%;
+  background-position-x: center;
+  image-rendering: pixelated;
+}
+
+#table {
+  height: 100%;
+  width: 100%;
+}
+
+
+/*#table {*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*}*/
+
+/* Shelf stuff */
+#shelf {
+  background: transparent;
+  height: 15%;
+
+  /*border: 1px solid white;*/
+}
+
+#shelf {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+  width: 75vh;
+  border: var(--debug-hit-box);
+}
+
+#table:has(#shelf:hover) {
+  animation-name: open;
+  animation-duration: 0.25s;
+  background-image: url('/sprites/table/table1.png');
+}
+
+#table:has(#shelf:not(:hover)) {
+  animation-name: close;
+  animation-duration: 0.25s;
+  background-image: url('/sprites/table/table12.png');
+}
+
+/* PC stuff */
+#pc {
+  background: url('/sprites/pc/pc_off.png') no-repeat;
+  background-size: auto 100%;
+  background-position-x: center;
+  image-rendering: pixelated;
+
+  height: 75%;
+  width: 100%;
+}
+
+#pc {
+  position: fixed;
+  top: 0;
+  bottom: 20%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 2;
+  pointer-events: none;
+}
+
+#pc.active {
+  background-image: url('/sprites/pc/pc_on.png');
+}
+
+/* Power btn */
+#power-btn {
+  position: fixed;
+  top: 60%;
+  left: calc(50vw + 18vh);
+  transform: translate(-50%, -50%);
+
+  height: 5%;
+  width: 10vh;
+  background-color: transparent;
+  border: var(--debug-hit-box);
+
+  pointer-events: auto;
+}
+
+/* Screen */
+#screen {
+  position: fixed;
+  top: 30.5%;
+  left: calc(49.8vw);
+  transform: translate(-50%, -50%);
+  height: 38.1%;
+  width: 50.5vh;
+  pointer-events: auto;
+  z-index: 1;
+  background: black;
+}
+
+#pc:not(.active) + #screen * {
+  display: none;
+}
+
+/* Video */
+#chlorine {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  pointer-events: auto;
+}

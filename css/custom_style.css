@@ -54,14 +54,14 @@ body {
 /*}*/
 
 /* Shelf stuff */
-#shelf {
+#drawer {
   background: transparent;
   height: 15%;
 
   /*border: 1px solid white;*/
 }
 
-#shelf {
+#drawer {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -71,13 +71,13 @@ body {
   border: var(--debug-hit-box);
 }
 
-#table:has(#shelf:hover) {
+#table:has(#drawer:hover) {
   animation-name: open;
   animation-duration: 0.25s;
   background-image: url('/sprites/table/table1.png');
 }
 
-#table:has(#shelf:not(:hover)) {
+#table:has(#drawer:not(:hover)) {
   animation-name: close;
   animation-duration: 0.25s;
   background-image: url('/sprites/table/table12.png');

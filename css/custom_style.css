@@ -10,7 +10,8 @@ html {
 }
 
 body {
-  background-image: url('/basement.jpg');
+  background-image: url('/sprites/room.png');
+  image-rendering: pixelated;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;

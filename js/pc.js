@@ -1,4 +1,4 @@
-let pcToggled = false
+let pcToggled = false;
 
 function togglePc(state = null) {
   if (state === null) {
@@ -14,8 +14,3 @@ function togglePc(state = null) {
   }
 }
 
-// $(document).ready(function() {
-//   $("#power-btn").on("click", function() {
-//     togglePc(true)
-//   })
-// })

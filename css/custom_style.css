@@ -6,8 +6,8 @@ html {
   height: 100%;
   width: 100%;
 
-  /*--debug-hit-box:  1px solid white;*/
-  --debug-hit-box: none;
+  --debug-hit-box:  1px solid white;
+  /*--debug-hit-box: none;*/
 }
 
 body {
@@ -31,10 +31,25 @@ body {
 
   height: 100%;
   width: 100%;
+
+
+}
+
+/* Cursor */
+body {
+  cursor: url('/sprites/hand_open.ico'), auto;
+}
+
+a:hover, button:hover, #drawer:hover, #drawer *:hover {
+  cursor: url('/sprites/hand_point.ico'), pointer;
+}
+
+#screen
+{
+  cursor: auto;
 }
 
 /* Preload images */
-
 body::after {
   position: absolute;
   width: 0;
@@ -103,7 +118,7 @@ body::after {
 }
 
 #drawer ul {
-  border: 1px solid var(--debug-hit-box);
+  border: var(--debug-hit-box);
   display: none;
   height: 100%;
   justify-content: space-around;
@@ -113,21 +128,44 @@ body::after {
   box-sizing: border-box;
 }
 
-#drawer ul li {
-  list-style: none;
-  border: var(--debug-hit-box);
-}
-
-#drawer ul li a {
-  padding: 5vh;
-}
-
 #drawer ul.show {
   display: flex;
 }
 
-
 /* Drawer items */
+#drawer ul li {
+  list-style: none;
+  border: var(--debug-hit-box);
+  width: 5vh;
+  height: 5vh;
+}
+
+#drawer ul li a {
+  border: var(--debug-hit-box);
+  width: 200%;
+  height: 200%;
+  transform: translate(-25%, -25%);
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #000000;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0) 100%);
+  visibility: hidden;
+  opacity: 0;
+
+  transition: opacity 0.25s, visibility 0.25s, background 0.25s;
+}
+
+#drawer ul li:hover a {
+  background: #000000;
+  background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0) 100%);
+  visibility: visible;
+  opacity: 100%;
+}
 
 #table:has(#earth:hover) {
   animation-name: earth_spin;
@@ -223,4 +261,46 @@ body::after {
   width: 100%;
   position: relative;
   pointer-events: auto;
+}
+
+/* Construction */
+#ruler_guy {
+  height: 20vh;
+  width: 20vh;
+
+  position: fixed;
+  bottom: 40vh;
+  left: calc(50vw - 47vh);
+}
+
+#power_tool {
+  height: 10vh;
+  width: 10vh;
+
+  position: fixed;
+  bottom: 40vh;
+  right: calc(50vw - 47vh);
+}
+
+#shooter {
+  position: fixed;
+  bottom: 0;
+  right: 5vh;
+}
+
+#ribbon {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: repeating-linear-gradient(
+    90deg, #000000, #000000 10%, #ffff00 10%, #ffff00 20%
+  );
+}
+
+#ribbon p {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  mix-blend-mode: difference;
 }

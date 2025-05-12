@@ -4,6 +4,7 @@ function onDocumentReady() {
   const table = $("#table");
   const drawer = $("#drawer");
   const drawerItems = $("#drawer ul li")
+  const iframe = $("#screen_iframe");
 
   drawerItems.each(function (index, item) {
     $(item).on("mouseenter", function() {
@@ -36,6 +37,14 @@ function onDocumentReady() {
   drawer.on("mouseleave", function() {
     table.removeClass("open")
   });
+
+  $("a").on("click", function(e) {
+    e.preventDefault();
+    console.log("clicked");
+    const href = $(this).attr("href");
+    console.log(href);
+    iframe.attr("src", href);
+  })
 }
 
 $(document).ready(onDocumentReady);

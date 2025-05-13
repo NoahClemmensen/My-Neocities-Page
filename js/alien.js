@@ -1,30 +1,56 @@
 let lastDirectionRight = Math.random() < 0.5;
 
+const volume = 0.25;
+const singing = new Audio("/sounds/alien_tralalala.mp3")
+singing.load()
+singing.autoplay = true
+singing.loop = true
+singing.volume = volume;
+
+
 function getRandBetween(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
 
 function getRandWaitTime() {
-  const min = 2000;
-  const max = 20000;
+  const min = 1000;
+  const max = 15000;
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
 function getNewPos(alien) {
-  const y = Math.floor(Math.random() * window.innerHeight);
-  return y - alien.height();
+  return Math.floor(Math.random() * (window.innerHeight - alien.height()));
 }
 
 function getRandSpeed() {
-  const min = 10;
-  const max = 20;
+  const min = 5;
+  const max = 15;
   return getRandBetween(min, max);
 }
 
 function getRandBounceSpeed() {
   const min = 2;
-  const max = 15;
+  const max = 7.5;
   return getRandBetween(min, max);
+}
+
+function animateVolume(audio, targetVolume, duration) {
+  const startVolume = audio.volume;
+  const volumeChange = targetVolume - startVolume;
+  const steps = 30; // Number of steps for the animation
+  const stepDuration = duration / steps;
+  let currentStep = 0;
+
+  const interval = setInterval(() => {
+    currentStep++;
+    const progress = currentStep / steps;
+    audio.volume = startVolume + volumeChange * progress;
+
+    if (currentStep >= steps) {
+      clearInterval(interval);
+      audio.volume = targetVolume; // Ensure exact target volume
+    }
+  }, stepDuration);
 }
 
 function prepareNewTrip(alien) {
@@ -53,6 +79,7 @@ function prepareNewTrip(alien) {
       lastDirectionRight = true;
     }
     alien.css({ display: "block" });
+    animateVolume(singing, volume, 1000);
   }, waitTime);
 }
 
@@ -72,7 +99,10 @@ $(document).ready(function () {
     lastDirectionRight = true;
   }
 
+  singing.play();
+
   alien.on("animationend", function (e) {
+    animateVolume(singing, 0, 1000);
     prepareNewTrip(alien);
   })
 });

@@ -44,6 +44,7 @@ function onDocumentReady() {
     const href = $(this).attr("href");
     console.log(href);
     iframe.attr("src", href);
+    togglePc(true);
   })
 }
 

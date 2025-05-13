@@ -21,7 +21,7 @@ body {
 
 body {
   color: white;
-  font-family: Verdana, serif;
+  font-family: Times New Roman, serif;
   margin: 0;
   padding: 0;
 
@@ -31,8 +31,6 @@ body {
 
   height: 100%;
   width: 100%;
-
-
 }
 
 /* Cursor */
@@ -226,7 +224,7 @@ body::after {
 /* Power btn */
 #power-btn {
   position: fixed;
-  top: 60%;
+  top: 60vh;
   left: calc(50vw + 18vh);
   transform: translate(-50%, -50%);
 
@@ -306,9 +304,119 @@ body::after {
   );
 }
 
-#ribbon p {
-  text-align: center;
+#ribbon marquee {
   padding: 0;
   margin: 0;
   mix-blend-mode: difference;
+}
+
+/* Dialog */
+#dialog_container {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+}
+
+#dialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+  max-width: 35vw;
+  background-color: #01a7a8;
+  z-index: 3;
+  box-shadow: 20px 20px 0 0 rgba(0, 0, 0, 0.682);
+  color: black;
+  padding: 10px;
+}
+
+#dialog_content {
+  text-align: center;
+  padding: 2px;
+  position: relative;
+  border: 1px solid black;
+  border-bottom: none;
+}
+
+#dialog_content::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% + 8px);
+  height: 100%;
+  border: 1px solid black;
+  border-bottom: none;
+}
+
+#dialog_description {
+  padding: 16px 18px 20px 18px;
+  position: relative;
+}
+
+#dialog_description a {
+  color: black;
+}
+
+#dialog_title {
+  color: white;
+  background-color: black;
+  padding: 0 5px;
+  line-height: initial;
+  display: inline-block;
+  position: absolute;
+  top: -13px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#dialog_actions {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+  border: 1px solid black;
+  border-top: none;
+  position: relative;
+  gap: 14px;
+}
+
+#dialog_actions::before {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% + 8px);
+  height: calc(100% + 8px);
+  border: 1px solid black;
+  border-top: none;
+  z-index: -1;
+}
+
+#dialog_actions button {
+  color: black;
+  height: 16px;
+  box-shadow: 6px 6px 0 0 black;
+  box-sizing: border-box;
+  border: none;
+  padding: 0 16px;
+  margin: 0;
+  background-color: white;
+  flex-grow: 0;
+  flex-basis: auto;
+}
+
+#dialog_actions button:hover {
+  background-color: #fefc4f;
 }

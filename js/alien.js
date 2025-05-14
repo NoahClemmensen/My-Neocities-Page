@@ -1,12 +1,11 @@
 let lastDirectionRight = Math.random() < 0.5;
 
 const volume = 0.25;
-const singing = new Audio("/sounds/alien_tralalala.mp3")
+const singing = $("#singing")[0];
 singing.load()
 singing.autoplay = true
 singing.loop = true
 singing.volume = volume;
-
 
 function getRandBetween(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;

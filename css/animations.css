@@ -450,3 +450,78 @@
     background-image: url('/sprites/table/snabela/snabela_spin24.png'); /* Frame 24 */
   }
 }
+
+@keyframes eyes {
+  0% {
+    background-image: url('/sprites/table/eyes/eyes1.png');
+  }
+  4.16% {
+    background-image: url('/sprites/table/eyes/eyes2.png'); /* Frame 2 */
+  }
+  8.33% {
+    background-image: url('/sprites/table/eyes/eyes3.png'); /* Frame 3 */
+  }
+  12.5% {
+    background-image: url('/sprites/table/eyes/eyes4.png'); /* Frame 4 */
+  }
+  16.66% {
+    background-image: url('/sprites/table/eyes/eyes5.png'); /* Frame 5 */
+  }
+  20.83% {
+    background-image: url('/sprites/table/eyes/eyes6.png'); /* Frame 6 */
+  }
+  25% {
+    background-image: url('/sprites/table/eyes/eyes7.png'); /* Frame 7 */
+  }
+  29.16% {
+    background-image: url('/sprites/table/eyes/eyes8.png'); /* Frame 8 */
+  }
+  33.33% {
+    background-image: url('/sprites/table/eyes/eyes9.png'); /* Frame 9 */
+  }
+  37.5% {
+    background-image: url('/sprites/table/eyes/eyes10.png'); /* Frame 10 */
+  }
+  41.66% {
+    background-image: url('/sprites/table/eyes/eyes11.png'); /* Frame 11 */
+  }
+  45.83% {
+    background-image: url('/sprites/table/eyes/eyes12.png'); /* Frame 12 */
+  }
+  50% {
+    background-image: url('/sprites/table/eyes/eyes13.png'); /* Frame 13 */
+  }
+  54.16% {
+    background-image: url('/sprites/table/eyes/eyes14.png'); /* Frame 14 */
+  }
+  58.33% {
+    background-image: url('/sprites/table/eyes/eyes15.png'); /* Frame 15 */
+  }
+  62.5% {
+    background-image: url('/sprites/table/eyes/eyes16.png'); /* Frame 16 */
+  }
+  66.66% {
+    background-image: url('/sprites/table/eyes/eyes17.png'); /* Frame 17 */
+  }
+  70.83% {
+    background-image: url('/sprites/table/eyes/eyes18.png'); /* Frame 18 */
+  }
+  75% {
+    background-image: url('/sprites/table/eyes/eyes19.png'); /* Frame 19 */
+  }
+  79.16% {
+    background-image: url('/sprites/table/eyes/eyes20.png'); /* Frame 20 */
+  }
+  83.33% {
+    background-image: url('/sprites/table/eyes/eyes21.png'); /* Frame 21 */
+  }
+  87.5% {
+    background-image: url('/sprites/table/eyes/eyes22.png'); /* Frame 22 */
+  }
+  91.66% {
+    background-image: url('/sprites/table/eyes/eyes23.png'); /* Frame 23 */
+  }
+  100% {
+    background-image: url('/sprites/table/eyes/eyes24.png'); /* Frame 24 */
+  }
+}

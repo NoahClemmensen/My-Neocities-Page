@@ -12,10 +12,24 @@ btnSound2.loop = false
 btnSound2.volume = volume;
 btnSound.volume = volume;
 
+function muteIframe(iframe) {
+  iframe.contents().find("audio, video").each(function(index, element) {
+    element.muted = true;
+  });
+}
+
+function unmuteIframe(iframe) {
+  iframe.contents().find("audio, video").each(function(index, element) {
+    element.muted = false;
+  });
+}
+
 function togglePc(state = null) {
   if (state === null) {
     state = !pcToggled
   }
+
+  const iframe = $("#screen_iframe");
 
   if (state && !pcToggled) {
     $("#pc").addClass("active");
@@ -23,12 +37,14 @@ function togglePc(state = null) {
     btnSound.play()
     btnSound2.pause()
     btnSound2.currentTime = 0;
+    unmuteIframe(iframe);
   } else if (!state && pcToggled) {
     $("#pc").removeClass("active")
     pcToggled = false
     btnSound2.play()
     btnSound.pause()
     btnSound.currentTime = 0;
+    muteIframe(iframe);
   }
 }
 
@@ -50,4 +66,11 @@ function closeDialog() {
     dialog.style.display = 'none';
   }
   localStorage.setItem("dialog_closed", "true");
+}
+
+function openDialog() {
+  const dialog = document.getElementById('dialog_container');
+  if (dialog) {
+    dialog.style.display = 'block';
+  }
 }

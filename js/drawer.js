@@ -1,4 +1,19 @@
 let fromItem = false;
+let inactivityTimer;
+
+function StartInactivityTimer() {
+  clearTimeout(inactivityTimer);
+  inactivityTimer = setTimeout(function() {
+    $("#table").addClass("eyes");
+    $("#table").addClass("from-eyes");
+  }, 10000);
+}
+
+function StopInactivityTimer() {
+  $("#table").removeClass("eyes");
+  $("#table").removeClass("from-eyes");
+  clearTimeout(inactivityTimer);
+}
 
 function onDocumentReady() {
   const table = $("#table");
@@ -9,6 +24,7 @@ function onDocumentReady() {
   drawerItems.each(function (index, item) {
     $(item).on("mouseenter", function() {
       table.removeClass("animated");
+      StopInactivityTimer();
       fromItem = true;
     })
 
@@ -18,6 +34,15 @@ function onDocumentReady() {
   })
 
   table.on("animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd", function() {
+    if (table.hasClass("eyes")) {
+      table.addClass("from-eyes");
+    }
+
+    if (table.hasClass("eyes")) {
+      table.removeClass("eyes");
+      StartInactivityTimer();
+    }
+
     if (table.hasClass("open")) {
       $("#drawer ul").addClass("show");
     } else {
@@ -32,20 +57,24 @@ function onDocumentReady() {
     } else {
       table.addClass("animated");
     }
+    StopInactivityTimer();
   });
 
   drawer.on("mouseleave", function() {
+    table.addClass("animated");
     table.removeClass("open")
+
+    StartInactivityTimer();
   });
 
   $("a").on("click", function(e) {
     e.preventDefault();
-    console.log("clicked");
     const href = $(this).attr("href");
-    console.log(href);
     iframe.attr("src", href);
     togglePc(true);
   })
+
+  StartInactivityTimer();
 }
 
 $(document).ready(onDocumentReady);

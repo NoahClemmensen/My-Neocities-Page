@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Random</title>
+  <link rel="stylesheet" href="/css/random.css">
+</head>
+<body>
+
+
+<div id="notebook">
+  <div id="page-selector">
+    <div id="selector-left" class="selector">
+      <img draggable="false" src="/sprites/arrow.gif" alt="right arrow" style="transform: scale(-100%, 100%) translateX(-100%);">
+    </div>
+    <div id="selector-right" class="selector">
+      <img draggable="false" src="/sprites/arrow.gif" alt="right arrow" style="margin-left: auto;">
+    </div>
+  </div>
+  <div style="width: 100%; height: 100%;" id="page-container">
+    <div class="notebook-container" data-page="0">
+      <div class="notebook-left">
+        <h1>Welcome to my notebook!</h1>
+        <p>In this notebook I will be dumping all sorts of random short little things,
+          I find interest for</p>
+        <br>
+        <h3><a href="https://youtu.be/DAngcygU7tc?si=T48GEjlntNKijM3o" target="_blank">3D printed spherical joint</a></h3>
+        <a href="https://www.thingiverse.com/thing:4841850" target="_blank"></a>
+      </div>
+      <div class="notebook-right">
+        <p>0.0</p>
+        <img class="pickup-able" src="/sprites/star.gif" alt="spinning star">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="man">
+  <div id="speech-bubble">
+    <p>
+      "There were comments about how Clippy was leering"
+    </p>
+    <p>- former Microsoft program manager Roz Ho</p>
+  </div>
+  <img draggable="false" id="man-img" src="/sprites/man/man_idle.png" alt="Image of a bald old man">
+</div>
+
+<div style="display: none; opacity: 0;" id="notebook-pages">
+  <div class="notebook-container" data-page="0">
+    <div class="notebook-left">
+      <h1>Welcome to my notebook!</h1>
+      <p>In this notebook I will be dumping all sorts of random short little things,
+      I find interest for</p>
+    </div>
+    <div class="notebook-right">
+      <p>0.0</p>
+      <img class="pickup-able" src="/sprites/star.gif" alt="spinning star">
+    </div>
+  </div>
+
+  <div class="notebook-container" data-page="1">
+    <div class="notebook-left">
+      <p>Page 1!</p>
+      <img class="pickup-able" src="/sprites/star.gif" alt="spinning star">
+    </div>
+    <div class="notebook-right">
+      <p>Woah</p>
+    </div>
+  </div>
+
+  <div class="notebook-container" data-page="2">
+    <div class="notebook-left">
+      <p>Page 2!!</p>
+    </div>
+    <div class="notebook-right">
+      <p>Cool beans</p>
+    </div>
+  </div>
+
+  <div class="notebook-container" data-page="3">
+    <div class="notebook-left">
+      <p>Page 3!!!</p>
+    </div>
+    <div class="notebook-right">
+      <p>Amazing</p>
+      <img class="pickup-able" src="/sprites/star.gif" alt="spinning star">
+    </div>
+  </div>
+</div>
+
+<script src="/js/jquery-3.7.1.slim.min.js"></script>
+<script src="/js/man.js"></script>
+<script src="/js/notebook.js"></script>
+</body>
+</html>

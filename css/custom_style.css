@@ -46,6 +46,37 @@ a:hover, button:hover, #drawer:hover, #drawer *:hover {
   cursor: auto;
 }
 
+/* Animated petpet cursor */
+.petpet:hover {
+  cursor: url('/sprites/petpet/petpet1.png') 16 16, auto;
+  -webkit-animation: petpet-cursor 400ms infinite;
+  animation: petpet-cursor 400ms infinite;
+}
+
+@-webkit-keyframes petpet-cursor {
+  0% { cursor: url('/sprites/petpet/petpet1.png') 16 16, auto; }
+  12.5% { cursor: url('/sprites/petpet/petpet2.png') 16 16, auto; }
+  25% { cursor: url('/sprites/petpet/petpet3.png') 16 16, auto; }
+  37.5% { cursor: url('/sprites/petpet/petpet4.png') 16 16, auto; }
+  50% { cursor: url('/sprites/petpet/petpet5.png') 16 16, auto; }
+  62.5% { cursor: url('/sprites/petpet/petpet6.png') 16 16, auto; }
+  75% { cursor: url('/sprites/petpet/petpet7.png') 16 16, auto; }
+  87.5% { cursor: url('/sprites/petpet/petpet8.png') 16 16, auto; }
+  100% { cursor: url('/sprites/petpet/petpet9.png') 16 16, auto; }
+}
+
+@keyframes petpet-cursor {
+  0% { cursor: url('/sprites/petpet/petpet1.png') 16 16, auto; }
+  12.5% { cursor: url('/sprites/petpet/petpet2.png') 16 16, auto; }
+  25% { cursor: url('/sprites/petpet/petpet3.png') 16 16, auto; }
+  37.5% { cursor: url('/sprites/petpet/petpet4.png') 16 16, auto; }
+  50% { cursor: url('/sprites/petpet/petpet5.png') 16 16, auto; }
+  62.5% { cursor: url('/sprites/petpet/petpet6.png') 16 16, auto; }
+  75% { cursor: url('/sprites/petpet/petpet7.png') 16 16, auto; }
+  87.5% { cursor: url('/sprites/petpet/petpet8.png') 16 16, auto; }
+  100% { cursor: url('/sprites/petpet/petpet9.png') 16 16, auto; }
+}
+
 /* Preload images */
 body::after {
   position: absolute;
@@ -285,6 +316,7 @@ body::after {
   position: fixed;
   bottom: 40vh;
   right: calc(50vw - 47vh);
+  pointer-events: auto;
 }
 
 #shooter {

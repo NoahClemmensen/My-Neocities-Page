@@ -15,7 +15,7 @@ module.exports = merge(common, {
         { from: 'sounds', to: 'sounds' },
         { from: 'pages', to: 'pages' },
         { from: 'css', to: 'css' },
-        { from: 'js/vendor', to: 'js/vendor' },
+        { from: 'js', to: 'js', globOptions: { ignore: ['**/app.js'] } },
         { from: 'icon.svg', to: 'icon.svg' },
         { from: 'favicon.ico', to: 'favicon.ico' },
         { from: 'robots.txt', to: 'robots.txt' },

@@ -44,6 +44,7 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: 5;
 
   box-sizing: border-box;
   padding: 10vh 0 0 0;
@@ -53,9 +54,10 @@ p {
   position: fixed;
   right: 0;
   bottom: 0;
-  width: 30vmin; /* scales with viewport */
+  width: 30vmin;
   height: auto;
   cursor: pointer;
+  z-index: 10;
 }
 
 #man-img {
@@ -145,4 +147,15 @@ p {
 #speech-bubble:empty {
   visibility: hidden;
   opacity: 0;
+}
+
+.pickup-able {
+  cursor: grab;
+  position: relative; /* create a base stacking context inside notebook */
+  z-index: 1;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }

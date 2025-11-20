@@ -18,6 +18,10 @@ $(document).ready(function () {
     if (!newPage.length) return;
     page = pageNumber; // update only when valid
     $pageContainer.empty().append(newPage.clone(true, true));
+
+    if (window.initPickupAble) {
+      window.initPickupAble();
+    }
   }
 
   $rightSelector.on("click", function () {

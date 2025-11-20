@@ -47,36 +47,6 @@ $(document).ready(function () {
     }, 2000)
   });
 
-  pickups.on("mousedown", function (e) {
-    console.log($(this));
-    // Drag the item with js
-    const item = $(this);
-    item.css({
-      position: "absolute",
-      left: e.pageX - item.width() / 2,
-      top: e.pageY - item.height() / 2,
-    });
-    item.on("mousemove", function (e) {
-      item.css({
-        left: e.pageX - item.width() / 2,
-        top: e.pageY - item.height() / 2,
-      });
-    });
-    item.on("mouseup", function () {
-      item.off("mousemove");
-      item.css({
-        position: "static",
-      });
-      setImgSrc(img, faceExpressions.happy);
-      speechBubble.html("Thank you for the item!");
-      setTimeout(function () {
-        setImgSrc(img, faceExpressions.idle);
-        speechBubble.html(""); // Hide speech bubble
-      }, 2000)
-    });
-
-  });
-
   setInterval(function () {
     setImgSrc(img, faceExpressions.angry);
     speechBubble.html(getRandomResponse(onHungryResponses));

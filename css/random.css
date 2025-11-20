@@ -1,12 +1,6 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  min-height: 100vh;
-}
-
+/* Scale base font size with viewport */
 html {
-  --alien-bounce-speed: 2s;
-  --alien-speed: 10s;
+  font-size: min(4vmin, 22px);
 }
 
 body {
@@ -16,10 +10,25 @@ body {
   font-style: italic;
   overflow: auto;
   position: relative;
+
+  /* optional: a bit smaller globally if needed */
+  font-size: 1rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
+h1 {
+  font-size: 2.2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+p {
+  font-size: 1rem;
 }
 
 #notebook {
@@ -89,19 +98,10 @@ h1, h2, h3, h4, h5, h6 {
 
   opacity: 0.35;
   transition: opacity 0.2s ease-in-out;
-
 }
 
 .selector:hover {
   opacity: 1;
-}
-
-#selector-left {
-  padding-left: 4%;
-}
-
-#selector-right {
-  padding-right: 10%;
 }
 
 .notebook-left {
@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .selector > img {
-  width: 15%;
+  width: 20%;
   -webkit-user-drag: none;
   user-select: none;
   -moz-user-select: none;

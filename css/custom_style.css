@@ -8,6 +8,8 @@ html {
 
   /*--debug-hit-box:  1px solid white;*/
   --debug-hit-box: none;
+
+  scroll-behavior: smooth;
 }
 
 body {

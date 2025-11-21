@@ -80,8 +80,23 @@
   // Public initializer: bind only to visible items in `#page-container`
   function initPickupAble() {
     $("#page-container .pickup-able").each(function () {
-      makePickupAble($(this), function () {
-        // optional drop handling
+      makePickupAble($(this), function ($item, e) {
+        // Check if dropped onto #man
+        const $man = $("#man");
+        const manOffset = $man.offset();
+        const manWidth = $man.outerWidth();
+        const manHeight = $man.outerHeight();
+
+        const x = e.pageX;
+        const y = e.pageY;
+
+        if (x >= manOffset.left && x <= manOffset.left + manWidth &&
+            y >= manOffset.top && y <= manOffset.top + manHeight) {
+          // Dropped on #man so eat item
+          if (window.eatFood) {
+            window.eatFood($item);
+          }
+        }
       });
     });
   }

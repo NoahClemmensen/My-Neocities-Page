@@ -11,10 +11,12 @@
 <div id="notebook">
   <div id="page-selector">
     <div id="selector-left" class="selector">
-      <img draggable="false" src="../sprites/arrow.gif" alt="right arrow" style="transform: scale(-100%, 100%) translateX(-100%);">
+      <img draggable="false" src="../sprites/arrow.gif" alt="right arrow"
+           style="transform: scale(-100%, 100%) translateX(-100%);">
     </div>
     <div id="selector-right" class="selector">
-      <img draggable="false" src="../sprites/arrow.gif" alt="right arrow" style="margin-left: auto; transform: translateX(-100%);">
+      <img draggable="false" src="../sprites/arrow.gif" alt="right arrow"
+           style="margin-left: auto; transform: translateX(-100%);">
     </div>
   </div>
   <div style="width: 100%; height: 100%;" id="page-container">
@@ -49,7 +51,8 @@
           <p>
             Try this
             <br>
-            <img draggable="false" class="pickup-able" src="../sprites/star.gif" alt="spinning star" style="width: 47px; height: 47px;">
+            <img data-type="star" draggable="false" class="pickup-able" src="../sprites/star.gif" alt="spinning star"
+                 style="width: 47px; height: 47px;">
           </p>
           <p>
             I <3
@@ -66,10 +69,6 @@
 
 <div id="man">
   <div id="speech-bubble">
-    <p>
-      "There were comments about how Clippy was leering"
-    </p>
-    <p>- former Microsoft program manager Roz Ho</p>
   </div>
   <img draggable="false" id="man-img" src="../sprites/man/man_idle.png" alt="Image of a bald old man">
 </div>
@@ -106,7 +105,8 @@
         <p>
           Try this
           <br>
-          <img draggable="false" class="pickup-able" src="../sprites/star.gif" alt="spinning star" style="width: 47px; height: 47px;">
+          <img data-type="star" draggable="false" class="pickup-able" src="../sprites/star.gif" alt="spinning star"
+               style="width: 47px; height: 47px;">
         </p>
         <p>
           I <3
@@ -122,13 +122,17 @@
   <div class="notebook-container" data-page="1">
     <div class="notebook-left">
       <h4><a href="https://youtu.be/DAngcygU7tc?si=T48GEjlntNKijM3o" target="_blank">Spherical flexure joint</a></h4>
-      <img draggable="false" class="pickup-able" src="../sprites/potato-chip.gif" alt="spinning potato chip" style="width: 47px; height: 47px; margin: 0 auto 10% auto;">
-      <img src="../sprites/spherical_joint.png" alt="Image of a 3D printed spherical joint contraption" style="width: 85%;">
+      <img data-type="potato-chip" draggable="false" class="pickup-able" src="../sprites/potato-chip.gif"
+           alt="spinning potato chip" style="width: 47px; height: 47px; margin: 0 auto 10% auto;">
+      <img src="../sprites/spherical_joint.png" alt="Image of a 3D printed spherical joint contraption"
+           style="width: 85%;">
       <p>Woah</p>
     </div>
     <div class="notebook-right">
-      <p>This is a 3D printed contraption that you can print yourself! You can find it <a href="https://www.thingiverse.com/thing:4841850" target="_blank">here</a>.</p>
-      <p>When printed with flexible plastic, it will bend in such a way that the pen tip always will be at a single point</p>
+      <p>This is a 3D printed contraption that you can print yourself! You can find it <a
+        href="https://www.thingiverse.com/thing:4841850" target="_blank">here</a>.</p>
+      <p>When printed with flexible plastic, it will bend in such a way that the pen tip always will be at a single
+        point</p>
     </div>
   </div>
 
@@ -143,22 +147,58 @@
     <div class="notebook-right">
       <p>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <img draggable="false" class="pickup-able" src="../sprites/bug.gif" alt="A rotating rgb cockroach bug" style="width: 55px; height: 80px;">
+        <img data-type="bug" draggable="false" class="pickup-able" src="../sprites/bug.gif"
+             alt="A rotating rgb cockroach bug" style="width: 55px; height: 80px;">
       </p>
-      <img src="https://www.theziver.com/images/meaning_of_fish.png" alt="Explanation of <>< symbol" style="width: 85%;">
+      <img src="https://www.theziver.com/images/meaning_of_fish.png" alt="Explanation of <>< symbol"
+           style="width: 85%;">
       <p>Fish are friends, not food.</p>
     </div>
   </div>
 
   <div class="notebook-container" data-page="3">
     <div class="notebook-left">
-      <p>Page 3!!!</p>
+      <p><strong>Look at this funny monkey I found</strong></p>
+      <img src="https://www.joelsartore.com/wp-content/uploads/stock/ANI040/ANI040-00165.jpg" style="width: 100%;"
+           alt="A funny looking monkey sitting">
+      <p>mfw trump x bubba news on the tv</p>
     </div>
     <div class="notebook-right">
-      <p>Amazing</p>
-      <img class="pickup-able" src="../sprites/star.gif" alt="spinning star">
+      <p>I don't really have anything to say about it... He just looks funny</p>
+      <img class="pickup-able" data-type="sandwich"
+           src="https://cades-archive1.neocities.org/Assets/Food/giphy%20(1)%20(2).gif"
+           alt="A very high quality gif of a rotating sandwich" style="width: 50px; height: 40px;">
     </div>
   </div>
+
+  <div class="notebook-container" data-page="4">
+    <div class="notebook-left">
+      <p>
+        <strong>Shodan</strong>
+        <small>Educational purposes only</small>
+        <br>
+        Shodan is an amazing tool that I find really cool, and very useful for atrocious activities
+        <br><br>
+        Did you know that many people leave their webcams, routers, printers and other IoT devices
+        directly connected to the internet without any security?
+        <br>
+        <img class="pickup-able" src="https://media.tenor.com/cCCG3j565kwAAAAj/capri-sun-drink.gif" alt="A spinning capri sun bag" data-type="capri-sun"
+             style="width: 57px; height: 47px;">
+      </p>
+    </div>
+    <div class="notebook-right">
+      <p>
+        With Shodan you can find these devices, and sometimes even access them if they have no security
+        <br><br>
+        <a href="https://www.shodan.io/" target="_blank">Link to Shodan</a>
+        <br><br>
+        Be responsible and ethical when using it!
+        <br>
+        Hypotetically... you could find peoples minecraft servers and join them uninvited...
+      </p>
+    </div>
+  </div>
+
 </div>
 
 <script src="../js/jquery-3.7.1.slim.min.js"></script>

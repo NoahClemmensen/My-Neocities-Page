@@ -8,11 +8,12 @@ body {
   background-size: 250px 250px;
   font-family: 'MS Gothic', sans-serif;
   font-style: italic;
-  overflow: auto;
   position: relative;
 
   /* optional: a bit smaller globally if needed */
   font-size: 1rem;
+
+  overflow: hidden;
 }
 
 h1 {
@@ -135,8 +136,6 @@ p {
   border-radius: 15px;
   border: 1px solid black;
   padding: 0.5rem;
-
-  transition: visibility 0.2s ease-in-out, opacity 0.2s ease-in-out;
 }
 
 #speech-bubble:not(:empty) {

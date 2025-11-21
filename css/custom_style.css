@@ -35,11 +35,11 @@ body {
 
 /* Cursor */
 body {
-  cursor: url('../sprites/hand_open.ico'), auto;
+  cursor: url('sprites/hand_open.ico'), auto;
 }
 
 a:hover, button:hover, #drawer:hover, #drawer *:hover {
-  cursor: url('../sprites/hand_point.ico'), pointer;
+  cursor: url('sprites/hand_point.ico'), pointer;
 }
 
 #screen {

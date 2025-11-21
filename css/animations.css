@@ -1,527 +1,527 @@
 @keyframes open {
   0% {
-    background-image: url('ArtDumWebsite/sprites/table/open_close/table1.png');
+    background-image: url('../sprites/table/open_close/table1.png');
   }
   9.1% {
-    background-image: url('ArtDumWebsite/sprites/table/open_close/table2.png');
+    background-image: url('../sprites/table/open_close/table2.png');
   }
   18.2% {
-    background-image: url('ArtDumWebsite/sprites/table/open_close/table3.png');
+    background-image: url('../sprites/table/open_close/table3.png');
   }
   27.3% {
-    background-image: url('ArtDumWebsite/sprites/table/open_close/table4.png');
+    background-image: url('../sprites/table/open_close/table4.png');
   }
   33.4% {
-    background-image: url('ArtDumWebsite/sprites/table/open_close/table5.png');
+    background-image: url('../sprites/table/open_close/table5.png');
   }
   45.5% {
-    background-image: url('ArtDumWebsite/sprites/table/open_close/table6.png');
+    background-image: url('../sprites/table/open_close/table6.png');
   }
   54.6% {
-    background-image: url('ArtDumWebsite/sprites/table/open_close/table7.png');
+    background-image: url('../sprites/table/open_close/table7.png');
   }
   63.6% {
-    background-image: url('ArtDumWebsite/sprites/table/open_close/table8.png');
+    background-image: url('../sprites/table/open_close/table8.png');
   }
   72.8% {
-    background-image: url('ArtDumWebsite/sprites/table/open_close/table9.png');
+    background-image: url('../sprites/table/open_close/table9.png');
   }
   81.9% {
-    background-image: url('ArtDumWebsite/sprites/table/open_close/table10.png');
+    background-image: url('../sprites/table/open_close/table10.png');
   }
   90.9% {
-    background-image: url('ArtDumWebsite/sprites/table/open_close/table11.png');
+    background-image: url('../sprites/table/open_close/table11.png');
   }
   100% {
-    background-image: url('ArtDumWebsite/sprites/table/open_close/table12.png');
+    background-image: url('../sprites/table/open_close/table12.png');
   }
 }
 
 @keyframes close {
   0% {
-    background-image: url('ArtDumWebsite/sprites/table/open_close/table12.png');
+    background-image: url('../sprites/table/open_close/table12.png');
   }
   9.1% {
-    background-image: url('ArtDumWebsite/sprites/table/open_close/table11.png');
+    background-image: url('../sprites/table/open_close/table11.png');
   }
   18.2% {
-    background-image: url('ArtDumWebsite/sprites/table/open_close/table10.png');
+    background-image: url('../sprites/table/open_close/table10.png');
   }
   27.3% {
-    background-image: url('ArtDumWebsite/sprites/table/open_close/table9.png');
+    background-image: url('../sprites/table/open_close/table9.png');
   }
   33.4% {
-    background-image: url('ArtDumWebsite/sprites/table/open_close/table8.png');
+    background-image: url('../sprites/table/open_close/table8.png');
   }
   45.5% {
-    background-image: url('ArtDumWebsite/sprites/table/open_close/table7.png');
+    background-image: url('../sprites/table/open_close/table7.png');
   }
   54.6% {
-    background-image: url('ArtDumWebsite/sprites/table/open_close/table6.png');
+    background-image: url('../sprites/table/open_close/table6.png');
   }
   63.6% {
-    background-image: url('ArtDumWebsite/sprites/table/open_close/table5.png');
+    background-image: url('../sprites/table/open_close/table5.png');
   }
   72.8% {
-    background-image: url('ArtDumWebsite/sprites/table/open_close/table4.png');
+    background-image: url('../sprites/table/open_close/table4.png');
   }
   81.9% {
-    background-image: url('ArtDumWebsite/sprites/table/open_close/table3.png');
+    background-image: url('../sprites/table/open_close/table3.png');
   }
   90.9% {
-    background-image: url('ArtDumWebsite/sprites/table/open_close/table2.png');
+    background-image: url('../sprites/table/open_close/table2.png');
   }
   100% {
-    background-image: url('ArtDumWebsite/sprites/table/open_close/table1.png');
+    background-image: url('../sprites/table/open_close/table1.png');
   }
 }
 
 @keyframes earth_spin {
   0% {
-    background-image: url('ArtDumWebsite/sprites/table/earth/earth_spin1.png');
+    background-image: url('../sprites/table/earth/earth_spin1.png');
   }
   4.16% {
-    background-image: url('ArtDumWebsite/sprites/table/earth/earth_spin2.png'); /* Frame 2 */
+    background-image: url('../sprites/table/earth/earth_spin2.png'); /* Frame 2 */
   }
   8.33% {
-    background-image: url('ArtDumWebsite/sprites/table/earth/earth_spin3.png'); /* Frame 3 */
+    background-image: url('../sprites/table/earth/earth_spin3.png'); /* Frame 3 */
   }
   12.5% {
-    background-image: url('ArtDumWebsite/sprites/table/earth/earth_spin4.png'); /* Frame 4 */
+    background-image: url('../sprites/table/earth/earth_spin4.png'); /* Frame 4 */
   }
   16.66% {
-    background-image: url('ArtDumWebsite/sprites/table/earth/earth_spin5.png'); /* Frame 5 */
+    background-image: url('../sprites/table/earth/earth_spin5.png'); /* Frame 5 */
   }
   20.83% {
-    background-image: url('ArtDumWebsite/sprites/table/earth/earth_spin6.png'); /* Frame 6 */
+    background-image: url('../sprites/table/earth/earth_spin6.png'); /* Frame 6 */
   }
   25% {
-    background-image: url('ArtDumWebsite/sprites/table/earth/earth_spin7.png'); /* Frame 7 */
+    background-image: url('../sprites/table/earth/earth_spin7.png'); /* Frame 7 */
   }
   29.16% {
-    background-image: url('ArtDumWebsite/sprites/table/earth/earth_spin8.png'); /* Frame 8 */
+    background-image: url('../sprites/table/earth/earth_spin8.png'); /* Frame 8 */
   }
   33.33% {
-    background-image: url('ArtDumWebsite/sprites/table/earth/earth_spin9.png'); /* Frame 9 */
+    background-image: url('../sprites/table/earth/earth_spin9.png'); /* Frame 9 */
   }
   37.5% {
-    background-image: url('ArtDumWebsite/sprites/table/earth/earth_spin10.png'); /* Frame 10 */
+    background-image: url('../sprites/table/earth/earth_spin10.png'); /* Frame 10 */
   }
   41.66% {
-    background-image: url('ArtDumWebsite/sprites/table/earth/earth_spin11.png'); /* Frame 11 */
+    background-image: url('../sprites/table/earth/earth_spin11.png'); /* Frame 11 */
   }
   45.83% {
-    background-image: url('ArtDumWebsite/sprites/table/earth/earth_spin12.png'); /* Frame 12 */
+    background-image: url('../sprites/table/earth/earth_spin12.png'); /* Frame 12 */
   }
   50% {
-    background-image: url('ArtDumWebsite/sprites/table/earth/earth_spin13.png'); /* Frame 13 */
+    background-image: url('../sprites/table/earth/earth_spin13.png'); /* Frame 13 */
   }
   54.16% {
-    background-image: url('ArtDumWebsite/sprites/table/earth/earth_spin14.png'); /* Frame 14 */
+    background-image: url('../sprites/table/earth/earth_spin14.png'); /* Frame 14 */
   }
   58.33% {
-    background-image: url('ArtDumWebsite/sprites/table/earth/earth_spin15.png'); /* Frame 15 */
+    background-image: url('../sprites/table/earth/earth_spin15.png'); /* Frame 15 */
   }
   62.5% {
-    background-image: url('ArtDumWebsite/sprites/table/earth/earth_spin16.png'); /* Frame 16 */
+    background-image: url('../sprites/table/earth/earth_spin16.png'); /* Frame 16 */
   }
   66.66% {
-    background-image: url('ArtDumWebsite/sprites/table/earth/earth_spin17.png'); /* Frame 17 */
+    background-image: url('../sprites/table/earth/earth_spin17.png'); /* Frame 17 */
   }
   70.83% {
-    background-image: url('ArtDumWebsite/sprites/table/earth/earth_spin18.png'); /* Frame 18 */
+    background-image: url('../sprites/table/earth/earth_spin18.png'); /* Frame 18 */
   }
   75% {
-    background-image: url('ArtDumWebsite/sprites/table/earth/earth_spin19.png'); /* Frame 19 */
+    background-image: url('../sprites/table/earth/earth_spin19.png'); /* Frame 19 */
   }
   79.16% {
-    background-image: url('ArtDumWebsite/sprites/table/earth/earth_spin20.png'); /* Frame 20 */
+    background-image: url('../sprites/table/earth/earth_spin20.png'); /* Frame 20 */
   }
   83.33% {
-    background-image: url('ArtDumWebsite/sprites/table/earth/earth_spin21.png'); /* Frame 21 */
+    background-image: url('../sprites/table/earth/earth_spin21.png'); /* Frame 21 */
   }
   87.5% {
-    background-image: url('ArtDumWebsite/sprites/table/earth/earth_spin22.png'); /* Frame 22 */
+    background-image: url('../sprites/table/earth/earth_spin22.png'); /* Frame 22 */
   }
   91.66% {
-    background-image: url('ArtDumWebsite/sprites/table/earth/earth_spin23.png'); /* Frame 23 */
+    background-image: url('../sprites/table/earth/earth_spin23.png'); /* Frame 23 */
   }
   100% {
-    background-image: url('ArtDumWebsite/sprites/table/earth/earth_spin24.png'); /* Frame 24 */
+    background-image: url('../sprites/table/earth/earth_spin24.png'); /* Frame 24 */
   }
 }
 
 @keyframes car_spin {
   0% {
-    background-image: url('ArtDumWebsite/sprites/table/car/car_spin1.png');
+    background-image: url('../sprites/table/car/car_spin1.png');
   }
   4.16% {
-    background-image: url('ArtDumWebsite/sprites/table/car/car_spin2.png'); /* Frame 2 */
+    background-image: url('../sprites/table/car/car_spin2.png'); /* Frame 2 */
   }
   8.33% {
-    background-image: url('ArtDumWebsite/sprites/table/car/car_spin3.png'); /* Frame 3 */
+    background-image: url('../sprites/table/car/car_spin3.png'); /* Frame 3 */
   }
   12.5% {
-    background-image: url('ArtDumWebsite/sprites/table/car/car_spin4.png'); /* Frame 4 */
+    background-image: url('../sprites/table/car/car_spin4.png'); /* Frame 4 */
   }
   16.66% {
-    background-image: url('ArtDumWebsite/sprites/table/car/car_spin5.png'); /* Frame 5 */
+    background-image: url('../sprites/table/car/car_spin5.png'); /* Frame 5 */
   }
   20.83% {
-    background-image: url('ArtDumWebsite/sprites/table/car/car_spin6.png'); /* Frame 6 */
+    background-image: url('../sprites/table/car/car_spin6.png'); /* Frame 6 */
   }
   25% {
-    background-image: url('ArtDumWebsite/sprites/table/car/car_spin7.png'); /* Frame 7 */
+    background-image: url('../sprites/table/car/car_spin7.png'); /* Frame 7 */
   }
   29.16% {
-    background-image: url('ArtDumWebsite/sprites/table/car/car_spin8.png'); /* Frame 8 */
+    background-image: url('../sprites/table/car/car_spin8.png'); /* Frame 8 */
   }
   33.33% {
-    background-image: url('ArtDumWebsite/sprites/table/car/car_spin9.png'); /* Frame 9 */
+    background-image: url('../sprites/table/car/car_spin9.png'); /* Frame 9 */
   }
   37.5% {
-    background-image: url('ArtDumWebsite/sprites/table/car/car_spin10.png'); /* Frame 10 */
+    background-image: url('../sprites/table/car/car_spin10.png'); /* Frame 10 */
   }
   41.66% {
-    background-image: url('ArtDumWebsite/sprites/table/car/car_spin11.png'); /* Frame 11 */
+    background-image: url('../sprites/table/car/car_spin11.png'); /* Frame 11 */
   }
   45.83% {
-    background-image: url('ArtDumWebsite/sprites/table/car/car_spin12.png'); /* Frame 12 */
+    background-image: url('../sprites/table/car/car_spin12.png'); /* Frame 12 */
   }
   50% {
-    background-image: url('ArtDumWebsite/sprites/table/car/car_spin13.png'); /* Frame 13 */
+    background-image: url('../sprites/table/car/car_spin13.png'); /* Frame 13 */
   }
   54.16% {
-    background-image: url('ArtDumWebsite/sprites/table/car/car_spin14.png'); /* Frame 14 */
+    background-image: url('../sprites/table/car/car_spin14.png'); /* Frame 14 */
   }
   58.33% {
-    background-image: url('ArtDumWebsite/sprites/table/car/car_spin15.png'); /* Frame 15 */
+    background-image: url('../sprites/table/car/car_spin15.png'); /* Frame 15 */
   }
   62.5% {
-    background-image: url('ArtDumWebsite/sprites/table/car/car_spin16.png'); /* Frame 16 */
+    background-image: url('../sprites/table/car/car_spin16.png'); /* Frame 16 */
   }
   66.66% {
-    background-image: url('ArtDumWebsite/sprites/table/car/car_spin17.png'); /* Frame 17 */
+    background-image: url('../sprites/table/car/car_spin17.png'); /* Frame 17 */
   }
   70.83% {
-    background-image: url('ArtDumWebsite/sprites/table/car/car_spin18.png'); /* Frame 18 */
+    background-image: url('../sprites/table/car/car_spin18.png'); /* Frame 18 */
   }
   75% {
-    background-image: url('ArtDumWebsite/sprites/table/car/car_spin19.png'); /* Frame 19 */
+    background-image: url('../sprites/table/car/car_spin19.png'); /* Frame 19 */
   }
   79.16% {
-    background-image: url('ArtDumWebsite/sprites/table/car/car_spin20.png'); /* Frame 20 */
+    background-image: url('../sprites/table/car/car_spin20.png'); /* Frame 20 */
   }
   83.33% {
-    background-image: url('ArtDumWebsite/sprites/table/car/car_spin21.png'); /* Frame 21 */
+    background-image: url('../sprites/table/car/car_spin21.png'); /* Frame 21 */
   }
   87.5% {
-    background-image: url('ArtDumWebsite/sprites/table/car/car_spin22.png'); /* Frame 22 */
+    background-image: url('../sprites/table/car/car_spin22.png'); /* Frame 22 */
   }
   91.66% {
-    background-image: url('ArtDumWebsite/sprites/table/car/car_spin23.png'); /* Frame 23 */
+    background-image: url('../sprites/table/car/car_spin23.png'); /* Frame 23 */
   }
   100% {
-    background-image: url('ArtDumWebsite/sprites/table/car/car_spin24.png'); /* Frame 24 */
+    background-image: url('../sprites/table/car/car_spin24.png'); /* Frame 24 */
   }
 }
 
 @keyframes smiley_spin {
   0% {
-    background-image: url('ArtDumWebsite/sprites/table/smiley/smiley_spin1.png');
+    background-image: url('../sprites/table/smiley/smiley_spin1.png');
   }
   4.16% {
-    background-image: url('ArtDumWebsite/sprites/table/smiley/smiley_spin2.png'); /* Frame 2 */
+    background-image: url('../sprites/table/smiley/smiley_spin2.png'); /* Frame 2 */
   }
   8.33% {
-    background-image: url('ArtDumWebsite/sprites/table/smiley/smiley_spin3.png'); /* Frame 3 */
+    background-image: url('../sprites/table/smiley/smiley_spin3.png'); /* Frame 3 */
   }
   12.5% {
-    background-image: url('ArtDumWebsite/sprites/table/smiley/smiley_spin4.png'); /* Frame 4 */
+    background-image: url('../sprites/table/smiley/smiley_spin4.png'); /* Frame 4 */
   }
   16.66% {
-    background-image: url('ArtDumWebsite/sprites/table/smiley/smiley_spin5.png'); /* Frame 5 */
+    background-image: url('../sprites/table/smiley/smiley_spin5.png'); /* Frame 5 */
   }
   20.83% {
-    background-image: url('ArtDumWebsite/sprites/table/smiley/smiley_spin6.png'); /* Frame 6 */
+    background-image: url('../sprites/table/smiley/smiley_spin6.png'); /* Frame 6 */
   }
   25% {
-    background-image: url('ArtDumWebsite/sprites/table/smiley/smiley_spin7.png'); /* Frame 7 */
+    background-image: url('../sprites/table/smiley/smiley_spin7.png'); /* Frame 7 */
   }
   29.16% {
-    background-image: url('ArtDumWebsite/sprites/table/smiley/smiley_spin8.png'); /* Frame 8 */
+    background-image: url('../sprites/table/smiley/smiley_spin8.png'); /* Frame 8 */
   }
   33.33% {
-    background-image: url('ArtDumWebsite/sprites/table/smiley/smiley_spin9.png'); /* Frame 9 */
+    background-image: url('../sprites/table/smiley/smiley_spin9.png'); /* Frame 9 */
   }
   37.5% {
-    background-image: url('ArtDumWebsite/sprites/table/smiley/smiley_spin10.png'); /* Frame 10 */
+    background-image: url('../sprites/table/smiley/smiley_spin10.png'); /* Frame 10 */
   }
   41.66% {
-    background-image: url('ArtDumWebsite/sprites/table/smiley/smiley_spin11.png'); /* Frame 11 */
+    background-image: url('../sprites/table/smiley/smiley_spin11.png'); /* Frame 11 */
   }
   45.83% {
-    background-image: url('ArtDumWebsite/sprites/table/smiley/smiley_spin12.png'); /* Frame 12 */
+    background-image: url('../sprites/table/smiley/smiley_spin12.png'); /* Frame 12 */
   }
   50% {
-    background-image: url('ArtDumWebsite/sprites/table/smiley/smiley_spin13.png'); /* Frame 13 */
+    background-image: url('../sprites/table/smiley/smiley_spin13.png'); /* Frame 13 */
   }
   54.16% {
-    background-image: url('ArtDumWebsite/sprites/table/smiley/smiley_spin14.png'); /* Frame 14 */
+    background-image: url('../sprites/table/smiley/smiley_spin14.png'); /* Frame 14 */
   }
   58.33% {
-    background-image: url('ArtDumWebsite/sprites/table/smiley/smiley_spin15.png'); /* Frame 15 */
+    background-image: url('../sprites/table/smiley/smiley_spin15.png'); /* Frame 15 */
   }
   62.5% {
-    background-image: url('ArtDumWebsite/sprites/table/smiley/smiley_spin16.png'); /* Frame 16 */
+    background-image: url('../sprites/table/smiley/smiley_spin16.png'); /* Frame 16 */
   }
   66.66% {
-    background-image: url('ArtDumWebsite/sprites/table/smiley/smiley_spin17.png'); /* Frame 17 */
+    background-image: url('../sprites/table/smiley/smiley_spin17.png'); /* Frame 17 */
   }
   70.83% {
-    background-image: url('ArtDumWebsite/sprites/table/smiley/smiley_spin18.png'); /* Frame 18 */
+    background-image: url('../sprites/table/smiley/smiley_spin18.png'); /* Frame 18 */
   }
   75% {
-    background-image: url('ArtDumWebsite/sprites/table/smiley/smiley_spin19.png'); /* Frame 19 */
+    background-image: url('../sprites/table/smiley/smiley_spin19.png'); /* Frame 19 */
   }
   79.16% {
-    background-image: url('ArtDumWebsite/sprites/table/smiley/smiley_spin20.png'); /* Frame 20 */
+    background-image: url('../sprites/table/smiley/smiley_spin20.png'); /* Frame 20 */
   }
   83.33% {
-    background-image: url('ArtDumWebsite/sprites/table/smiley/smiley_spin21.png'); /* Frame 21 */
+    background-image: url('../sprites/table/smiley/smiley_spin21.png'); /* Frame 21 */
   }
   87.5% {
-    background-image: url('ArtDumWebsite/sprites/table/smiley/smiley_spin22.png'); /* Frame 22 */
+    background-image: url('../sprites/table/smiley/smiley_spin22.png'); /* Frame 22 */
   }
   91.66% {
-    background-image: url('ArtDumWebsite/sprites/table/smiley/smiley_spin23.png'); /* Frame 23 */
+    background-image: url('../sprites/table/smiley/smiley_spin23.png'); /* Frame 23 */
   }
   100% {
-    background-image: url('ArtDumWebsite/sprites/table/smiley/smiley_spin24.png'); /* Frame 24 */
+    background-image: url('../sprites/table/smiley/smiley_spin24.png'); /* Frame 24 */
   }
 }
 
 @keyframes skateboard_spin {
   0% {
-    background-image: url('ArtDumWebsite/sprites/table/skateboard/skateboard_spin1.png');
+    background-image: url('../sprites/table/skateboard/skateboard_spin1.png');
   }
   4.16% {
-    background-image: url('ArtDumWebsite/sprites/table/skateboard/skateboard_spin2.png'); /* Frame 2 */
+    background-image: url('../sprites/table/skateboard/skateboard_spin2.png'); /* Frame 2 */
   }
   8.33% {
-    background-image: url('ArtDumWebsite/sprites/table/skateboard/skateboard_spin3.png'); /* Frame 3 */
+    background-image: url('../sprites/table/skateboard/skateboard_spin3.png'); /* Frame 3 */
   }
   12.5% {
-    background-image: url('ArtDumWebsite/sprites/table/skateboard/skateboard_spin4.png'); /* Frame 4 */
+    background-image: url('../sprites/table/skateboard/skateboard_spin4.png'); /* Frame 4 */
   }
   16.66% {
-    background-image: url('ArtDumWebsite/sprites/table/skateboard/skateboard_spin5.png'); /* Frame 5 */
+    background-image: url('../sprites/table/skateboard/skateboard_spin5.png'); /* Frame 5 */
   }
   20.83% {
-    background-image: url('ArtDumWebsite/sprites/table/skateboard/skateboard_spin6.png'); /* Frame 6 */
+    background-image: url('../sprites/table/skateboard/skateboard_spin6.png'); /* Frame 6 */
   }
   25% {
-    background-image: url('ArtDumWebsite/sprites/table/skateboard/skateboard_spin7.png'); /* Frame 7 */
+    background-image: url('../sprites/table/skateboard/skateboard_spin7.png'); /* Frame 7 */
   }
   29.16% {
-    background-image: url('ArtDumWebsite/sprites/table/skateboard/skateboard_spin8.png'); /* Frame 8 */
+    background-image: url('../sprites/table/skateboard/skateboard_spin8.png'); /* Frame 8 */
   }
   33.33% {
-    background-image: url('ArtDumWebsite/sprites/table/skateboard/skateboard_spin9.png'); /* Frame 9 */
+    background-image: url('../sprites/table/skateboard/skateboard_spin9.png'); /* Frame 9 */
   }
   37.5% {
-    background-image: url('ArtDumWebsite/sprites/table/skateboard/skateboard_spin10.png'); /* Frame 10 */
+    background-image: url('../sprites/table/skateboard/skateboard_spin10.png'); /* Frame 10 */
   }
   41.66% {
-    background-image: url('ArtDumWebsite/sprites/table/skateboard/skateboard_spin11.png'); /* Frame 11 */
+    background-image: url('../sprites/table/skateboard/skateboard_spin11.png'); /* Frame 11 */
   }
   45.83% {
-    background-image: url('ArtDumWebsite/sprites/table/skateboard/skateboard_spin12.png'); /* Frame 12 */
+    background-image: url('../sprites/table/skateboard/skateboard_spin12.png'); /* Frame 12 */
   }
   50% {
-    background-image: url('ArtDumWebsite/sprites/table/skateboard/skateboard_spin13.png'); /* Frame 13 */
+    background-image: url('../sprites/table/skateboard/skateboard_spin13.png'); /* Frame 13 */
   }
   54.16% {
-    background-image: url('ArtDumWebsite/sprites/table/skateboard/skateboard_spin14.png'); /* Frame 14 */
+    background-image: url('../sprites/table/skateboard/skateboard_spin14.png'); /* Frame 14 */
   }
   58.33% {
-    background-image: url('ArtDumWebsite/sprites/table/skateboard/skateboard_spin15.png'); /* Frame 15 */
+    background-image: url('../sprites/table/skateboard/skateboard_spin15.png'); /* Frame 15 */
   }
   62.5% {
-    background-image: url('ArtDumWebsite/sprites/table/skateboard/skateboard_spin16.png'); /* Frame 16 */
+    background-image: url('../sprites/table/skateboard/skateboard_spin16.png'); /* Frame 16 */
   }
   66.66% {
-    background-image: url('ArtDumWebsite/sprites/table/skateboard/skateboard_spin17.png'); /* Frame 17 */
+    background-image: url('../sprites/table/skateboard/skateboard_spin17.png'); /* Frame 17 */
   }
   70.83% {
-    background-image: url('ArtDumWebsite/sprites/table/skateboard/skateboard_spin18.png'); /* Frame 18 */
+    background-image: url('../sprites/table/skateboard/skateboard_spin18.png'); /* Frame 18 */
   }
   75% {
-    background-image: url('ArtDumWebsite/sprites/table/skateboard/skateboard_spin19.png'); /* Frame 19 */
+    background-image: url('../sprites/table/skateboard/skateboard_spin19.png'); /* Frame 19 */
   }
   79.16% {
-    background-image: url('ArtDumWebsite/sprites/table/skateboard/skateboard_spin20.png'); /* Frame 20 */
+    background-image: url('../sprites/table/skateboard/skateboard_spin20.png'); /* Frame 20 */
   }
   83.33% {
-    background-image: url('ArtDumWebsite/sprites/table/skateboard/skateboard_spin21.png'); /* Frame 21 */
+    background-image: url('../sprites/table/skateboard/skateboard_spin21.png'); /* Frame 21 */
   }
   87.5% {
-    background-image: url('ArtDumWebsite/sprites/table/skateboard/skateboard_spin22.png'); /* Frame 22 */
+    background-image: url('../sprites/table/skateboard/skateboard_spin22.png'); /* Frame 22 */
   }
   91.66% {
-    background-image: url('ArtDumWebsite/sprites/table/skateboard/skateboard_spin23.png'); /* Frame 23 */
+    background-image: url('../sprites/table/skateboard/skateboard_spin23.png'); /* Frame 23 */
   }
   100% {
-    background-image: url('ArtDumWebsite/sprites/table/skateboard/skateboard_spin24.png'); /* Frame 24 */
+    background-image: url('../sprites/table/skateboard/skateboard_spin24.png'); /* Frame 24 */
   }
 }
 
 @keyframes snabela_spin {
   0% {
-    background-image: url('ArtDumWebsite/sprites/table/snabela/snabela_spin1.png');
+    background-image: url('../sprites/table/snabela/snabela_spin1.png');
   }
   4.16% {
-    background-image: url('ArtDumWebsite/sprites/table/snabela/snabela_spin2.png'); /* Frame 2 */
+    background-image: url('../sprites/table/snabela/snabela_spin2.png'); /* Frame 2 */
   }
   8.33% {
-    background-image: url('ArtDumWebsite/sprites/table/snabela/snabela_spin3.png'); /* Frame 3 */
+    background-image: url('../sprites/table/snabela/snabela_spin3.png'); /* Frame 3 */
   }
   12.5% {
-    background-image: url('ArtDumWebsite/sprites/table/snabela/snabela_spin4.png'); /* Frame 4 */
+    background-image: url('../sprites/table/snabela/snabela_spin4.png'); /* Frame 4 */
   }
   16.66% {
-    background-image: url('ArtDumWebsite/sprites/table/snabela/snabela_spin5.png'); /* Frame 5 */
+    background-image: url('../sprites/table/snabela/snabela_spin5.png'); /* Frame 5 */
   }
   20.83% {
-    background-image: url('ArtDumWebsite/sprites/table/snabela/snabela_spin6.png'); /* Frame 6 */
+    background-image: url('../sprites/table/snabela/snabela_spin6.png'); /* Frame 6 */
   }
   25% {
-    background-image: url('ArtDumWebsite/sprites/table/snabela/snabela_spin7.png'); /* Frame 7 */
+    background-image: url('../sprites/table/snabela/snabela_spin7.png'); /* Frame 7 */
   }
   29.16% {
-    background-image: url('ArtDumWebsite/sprites/table/snabela/snabela_spin8.png'); /* Frame 8 */
+    background-image: url('../sprites/table/snabela/snabela_spin8.png'); /* Frame 8 */
   }
   33.33% {
-    background-image: url('ArtDumWebsite/sprites/table/snabela/snabela_spin9.png'); /* Frame 9 */
+    background-image: url('../sprites/table/snabela/snabela_spin9.png'); /* Frame 9 */
   }
   37.5% {
-    background-image: url('ArtDumWebsite/sprites/table/snabela/snabela_spin10.png'); /* Frame 10 */
+    background-image: url('../sprites/table/snabela/snabela_spin10.png'); /* Frame 10 */
   }
   41.66% {
-    background-image: url('ArtDumWebsite/sprites/table/snabela/snabela_spin11.png'); /* Frame 11 */
+    background-image: url('../sprites/table/snabela/snabela_spin11.png'); /* Frame 11 */
   }
   45.83% {
-    background-image: url('ArtDumWebsite/sprites/table/snabela/snabela_spin12.png'); /* Frame 12 */
+    background-image: url('../sprites/table/snabela/snabela_spin12.png'); /* Frame 12 */
   }
   50% {
-    background-image: url('ArtDumWebsite/sprites/table/snabela/snabela_spin13.png'); /* Frame 13 */
+    background-image: url('../sprites/table/snabela/snabela_spin13.png'); /* Frame 13 */
   }
   54.16% {
-    background-image: url('ArtDumWebsite/sprites/table/snabela/snabela_spin14.png'); /* Frame 14 */
+    background-image: url('../sprites/table/snabela/snabela_spin14.png'); /* Frame 14 */
   }
   58.33% {
-    background-image: url('ArtDumWebsite/sprites/table/snabela/snabela_spin15.png'); /* Frame 15 */
+    background-image: url('../sprites/table/snabela/snabela_spin15.png'); /* Frame 15 */
   }
   62.5% {
-    background-image: url('ArtDumWebsite/sprites/table/snabela/snabela_spin16.png'); /* Frame 16 */
+    background-image: url('../sprites/table/snabela/snabela_spin16.png'); /* Frame 16 */
   }
   66.66% {
-    background-image: url('ArtDumWebsite/sprites/table/snabela/snabela_spin17.png'); /* Frame 17 */
+    background-image: url('../sprites/table/snabela/snabela_spin17.png'); /* Frame 17 */
   }
   70.83% {
-    background-image: url('ArtDumWebsite/sprites/table/snabela/snabela_spin18.png'); /* Frame 18 */
+    background-image: url('../sprites/table/snabela/snabela_spin18.png'); /* Frame 18 */
   }
   75% {
-    background-image: url('ArtDumWebsite/sprites/table/snabela/snabela_spin19.png'); /* Frame 19 */
+    background-image: url('../sprites/table/snabela/snabela_spin19.png'); /* Frame 19 */
   }
   79.16% {
-    background-image: url('ArtDumWebsite/sprites/table/snabela/snabela_spin20.png'); /* Frame 20 */
+    background-image: url('../sprites/table/snabela/snabela_spin20.png'); /* Frame 20 */
   }
   83.33% {
-    background-image: url('ArtDumWebsite/sprites/table/snabela/snabela_spin21.png'); /* Frame 21 */
+    background-image: url('../sprites/table/snabela/snabela_spin21.png'); /* Frame 21 */
   }
   87.5% {
-    background-image: url('ArtDumWebsite/sprites/table/snabela/snabela_spin22.png'); /* Frame 22 */
+    background-image: url('../sprites/table/snabela/snabela_spin22.png'); /* Frame 22 */
   }
   91.66% {
-    background-image: url('ArtDumWebsite/sprites/table/snabela/snabela_spin23.png'); /* Frame 23 */
+    background-image: url('../sprites/table/snabela/snabela_spin23.png'); /* Frame 23 */
   }
   100% {
-    background-image: url('ArtDumWebsite/sprites/table/snabela/snabela_spin24.png'); /* Frame 24 */
+    background-image: url('../sprites/table/snabela/snabela_spin24.png'); /* Frame 24 */
   }
 }
 
 @keyframes eyes {
   0% {
-    background-image: url('ArtDumWebsite/sprites/table/eyes/eyes1.png');
+    background-image: url('../sprites/table/eyes/eyes1.png');
   }
   4.16% {
-    background-image: url('ArtDumWebsite/sprites/table/eyes/eyes2.png'); /* Frame 2 */
+    background-image: url('../sprites/table/eyes/eyes2.png'); /* Frame 2 */
   }
   8.33% {
-    background-image: url('ArtDumWebsite/sprites/table/eyes/eyes3.png'); /* Frame 3 */
+    background-image: url('../sprites/table/eyes/eyes3.png'); /* Frame 3 */
   }
   12.5% {
-    background-image: url('ArtDumWebsite/sprites/table/eyes/eyes4.png'); /* Frame 4 */
+    background-image: url('../sprites/table/eyes/eyes4.png'); /* Frame 4 */
   }
   16.66% {
-    background-image: url('ArtDumWebsite/sprites/table/eyes/eyes5.png'); /* Frame 5 */
+    background-image: url('../sprites/table/eyes/eyes5.png'); /* Frame 5 */
   }
   20.83% {
-    background-image: url('ArtDumWebsite/sprites/table/eyes/eyes6.png'); /* Frame 6 */
+    background-image: url('../sprites/table/eyes/eyes6.png'); /* Frame 6 */
   }
   25% {
-    background-image: url('ArtDumWebsite/sprites/table/eyes/eyes7.png'); /* Frame 7 */
+    background-image: url('../sprites/table/eyes/eyes7.png'); /* Frame 7 */
   }
   29.16% {
-    background-image: url('ArtDumWebsite/sprites/table/eyes/eyes8.png'); /* Frame 8 */
+    background-image: url('../sprites/table/eyes/eyes8.png'); /* Frame 8 */
   }
   33.33% {
-    background-image: url('ArtDumWebsite/sprites/table/eyes/eyes9.png'); /* Frame 9 */
+    background-image: url('../sprites/table/eyes/eyes9.png'); /* Frame 9 */
   }
   37.5% {
-    background-image: url('ArtDumWebsite/sprites/table/eyes/eyes10.png'); /* Frame 10 */
+    background-image: url('../sprites/table/eyes/eyes10.png'); /* Frame 10 */
   }
   41.66% {
-    background-image: url('ArtDumWebsite/sprites/table/eyes/eyes11.png'); /* Frame 11 */
+    background-image: url('../sprites/table/eyes/eyes11.png'); /* Frame 11 */
   }
   45.83% {
-    background-image: url('ArtDumWebsite/sprites/table/eyes/eyes12.png'); /* Frame 12 */
+    background-image: url('../sprites/table/eyes/eyes12.png'); /* Frame 12 */
   }
   50% {
-    background-image: url('ArtDumWebsite/sprites/table/eyes/eyes13.png'); /* Frame 13 */
+    background-image: url('../sprites/table/eyes/eyes13.png'); /* Frame 13 */
   }
   54.16% {
-    background-image: url('ArtDumWebsite/sprites/table/eyes/eyes14.png'); /* Frame 14 */
+    background-image: url('../sprites/table/eyes/eyes14.png'); /* Frame 14 */
   }
   58.33% {
-    background-image: url('ArtDumWebsite/sprites/table/eyes/eyes15.png'); /* Frame 15 */
+    background-image: url('../sprites/table/eyes/eyes15.png'); /* Frame 15 */
   }
   62.5% {
-    background-image: url('ArtDumWebsite/sprites/table/eyes/eyes16.png'); /* Frame 16 */
+    background-image: url('../sprites/table/eyes/eyes16.png'); /* Frame 16 */
   }
   66.66% {
-    background-image: url('ArtDumWebsite/sprites/table/eyes/eyes17.png'); /* Frame 17 */
+    background-image: url('../sprites/table/eyes/eyes17.png'); /* Frame 17 */
   }
   70.83% {
-    background-image: url('ArtDumWebsite/sprites/table/eyes/eyes18.png'); /* Frame 18 */
+    background-image: url('../sprites/table/eyes/eyes18.png'); /* Frame 18 */
   }
   75% {
-    background-image: url('ArtDumWebsite/sprites/table/eyes/eyes19.png'); /* Frame 19 */
+    background-image: url('../sprites/table/eyes/eyes19.png'); /* Frame 19 */
   }
   79.16% {
-    background-image: url('ArtDumWebsite/sprites/table/eyes/eyes20.png'); /* Frame 20 */
+    background-image: url('../sprites/table/eyes/eyes20.png'); /* Frame 20 */
   }
   83.33% {
-    background-image: url('ArtDumWebsite/sprites/table/eyes/eyes21.png'); /* Frame 21 */
+    background-image: url('../sprites/table/eyes/eyes21.png'); /* Frame 21 */
   }
   87.5% {
-    background-image: url('ArtDumWebsite/sprites/table/eyes/eyes22.png'); /* Frame 22 */
+    background-image: url('../sprites/table/eyes/eyes22.png'); /* Frame 22 */
   }
   91.66% {
-    background-image: url('ArtDumWebsite/sprites/table/eyes/eyes23.png'); /* Frame 23 */
+    background-image: url('../sprites/table/eyes/eyes23.png'); /* Frame 23 */
   }
   100% {
-    background-image: url('ArtDumWebsite/sprites/table/eyes/eyes24.png'); /* Frame 24 */
+    background-image: url('../sprites/table/eyes/eyes24.png'); /* Frame 24 */
   }
 }

@@ -1,8 +1,8 @@
 const faceExpressions = {
-  happy: "../sprites/man/man_happy.png",
-  sad: "../sprites/man/man_sadge.png",
-  angry: "../sprites/man/man_angy.png",
-  idle: "../sprites/man/man_idle.png",
+  happy: "sprites/man/man_happy.png",
+  sad: "sprites/man/man_sadge.png",
+  angry: "sprites/man/man_angy.png",
+  idle: "sprites/man/man_idle.png",
 }
 
 const onClickedResponses = [
@@ -30,10 +30,8 @@ function getRandomResponse(responseArray) {
 }
 
 $(document).ready(function () {
-  const man = $("#man");
   const speechBubble = $("#speech-bubble");
   const img = $("#man-img");
-  const pickups = $(".pickup-able");
 
   setImgSrc(img, faceExpressions.idle);
   speechBubble.html(""); // Empty means hidden speech bubble

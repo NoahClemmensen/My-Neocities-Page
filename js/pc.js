@@ -1,7 +1,7 @@
 let pcToggled = false;
 
-const btnSound = new Audio('../sounds/switching-a-crt-on.mp3');
-const btnSound2 = new Audio('../sounds/click.mp3');
+const btnSound = new Audio('sounds/switching-a-crt-on.mp3');
+const btnSound2 = new Audio('sounds/click.mp3');
 const volume = 0.5;
 btnSound.load()
 btnSound2.load()

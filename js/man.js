@@ -1,8 +1,8 @@
 const faceExpressions = {
-  happy: "ArtDumpWebsite/sprites/man/man_happy.png",
-  sad: "ArtDumpWebsite/sprites/man/man_sadge.png",
-  angry: "ArtDumpWebsite/sprites/man/man_angy.png",
-  idle: "ArtDumpWebsite/sprites/man/man_idle.png",
+  happy: "../sprites/man/man_happy.png",
+  sad: "../sprites/man/man_sadge.png",
+  angry: "../sprites/man/man_angy.png",
+  idle: "../sprites/man/man_idle.png",
 }
 
 const onClickedResponses = [

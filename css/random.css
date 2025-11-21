@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background: url("/sprites/clouds.png");
+  background: url("../sprites/clouds.png");
   background-size: 250px 250px;
   font-family: 'MS Gothic', sans-serif;
   font-style: italic;
@@ -32,7 +32,7 @@ p {
 }
 
 #notebook {
-  background-image: url("/sprites/notebook.png");
+  background-image: url("../sprites/notebook.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;

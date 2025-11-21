@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background: url("/sprites/space.gif");
+  background: url("../sprites/space.gif");
   font-family: 'MS Gothic', sans-serif;
   font-style: italic;
   overflow: auto;
@@ -104,11 +104,11 @@ h1, h2, h3, h4, h5, h6 {
   border: none;
   background-size: 50% 50%;
   background-repeat: no-repeat;
-  background-image: url("/sprites/btn.png");
+  background-image: url("../sprites/btn.png");
   background-position: center center;
   background-color: transparent;
 }
 
 #translator.active {
-  background-image: url('/sprites/btn_pressed.png');
+  background-image: url('../sprites/btn_pressed.png');
 }

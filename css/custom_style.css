@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background-image: url('/sprites/room.png');
+  background-image: url('../sprites/room.png');
   image-rendering: pixelated;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -35,11 +35,11 @@ body {
 
 /* Cursor */
 body {
-  cursor: url('/sprites/hand_open.ico'), auto;
+  cursor: url('../sprites/hand_open.ico'), auto;
 }
 
 a:hover, button:hover, #drawer:hover, #drawer *:hover {
-  cursor: url('/sprites/hand_point.ico'), pointer;
+  cursor: url('../sprites/hand_point.ico'), pointer;
 }
 
 #screen {
@@ -48,33 +48,33 @@ a:hover, button:hover, #drawer:hover, #drawer *:hover {
 
 /* Animated petpet cursor */
 .petpet:hover {
-  cursor: url('/sprites/petpet/petpet1.png') 16 16, auto;
+  cursor: url('../sprites/petpet/petpet1.png') 16 16, auto;
   -webkit-animation: petpet-cursor 400ms infinite;
   animation: petpet-cursor 400ms infinite;
 }
 
 @-webkit-keyframes petpet-cursor {
-  0% { cursor: url('/sprites/petpet/petpet1.png') 16 16, auto; }
-  12.5% { cursor: url('/sprites/petpet/petpet2.png') 16 16, auto; }
-  25% { cursor: url('/sprites/petpet/petpet3.png') 16 16, auto; }
-  37.5% { cursor: url('/sprites/petpet/petpet4.png') 16 16, auto; }
-  50% { cursor: url('/sprites/petpet/petpet5.png') 16 16, auto; }
-  62.5% { cursor: url('/sprites/petpet/petpet6.png') 16 16, auto; }
-  75% { cursor: url('/sprites/petpet/petpet7.png') 16 16, auto; }
-  87.5% { cursor: url('/sprites/petpet/petpet8.png') 16 16, auto; }
-  100% { cursor: url('/sprites/petpet/petpet9.png') 16 16, auto; }
+  0% { cursor: url('../sprites/petpet/petpet1.png') 16 16, auto; }
+  12.5% { cursor: url('../sprites/petpet/petpet2.png') 16 16, auto; }
+  25% { cursor: url('../sprites/petpet/petpet3.png') 16 16, auto; }
+  37.5% { cursor: url('../sprites/petpet/petpet4.png') 16 16, auto; }
+  50% { cursor: url('../sprites/petpet/petpet5.png') 16 16, auto; }
+  62.5% { cursor: url('../sprites/petpet/petpet6.png') 16 16, auto; }
+  75% { cursor: url('../sprites/petpet/petpet7.png') 16 16, auto; }
+  87.5% { cursor: url('../sprites/petpet/petpet8.png') 16 16, auto; }
+  100% { cursor: url('../sprites/petpet/petpet9.png') 16 16, auto; }
 }
 
 @keyframes petpet-cursor {
-  0% { cursor: url('/sprites/petpet/petpet1.png') 16 16, auto; }
-  12.5% { cursor: url('/sprites/petpet/petpet2.png') 16 16, auto; }
-  25% { cursor: url('/sprites/petpet/petpet3.png') 16 16, auto; }
-  37.5% { cursor: url('/sprites/petpet/petpet4.png') 16 16, auto; }
-  50% { cursor: url('/sprites/petpet/petpet5.png') 16 16, auto; }
-  62.5% { cursor: url('/sprites/petpet/petpet6.png') 16 16, auto; }
-  75% { cursor: url('/sprites/petpet/petpet7.png') 16 16, auto; }
-  87.5% { cursor: url('/sprites/petpet/petpet8.png') 16 16, auto; }
-  100% { cursor: url('/sprites/petpet/petpet9.png') 16 16, auto; }
+  0% { cursor: url('../sprites/petpet/petpet1.png') 16 16, auto; }
+  12.5% { cursor: url('../sprites/petpet/petpet2.png') 16 16, auto; }
+  25% { cursor: url('../sprites/petpet/petpet3.png') 16 16, auto; }
+  37.5% { cursor: url('../sprites/petpet/petpet4.png') 16 16, auto; }
+  50% { cursor: url('../sprites/petpet/petpet5.png') 16 16, auto; }
+  62.5% { cursor: url('../sprites/petpet/petpet6.png') 16 16, auto; }
+  75% { cursor: url('../sprites/petpet/petpet7.png') 16 16, auto; }
+  87.5% { cursor: url('../sprites/petpet/petpet8.png') 16 16, auto; }
+  100% { cursor: url('../sprites/petpet/petpet9.png') 16 16, auto; }
 }
 
 /* Preload images */
@@ -84,12 +84,12 @@ body::after {
   height: 0;
   overflow: hidden;
   z-index: -1; /* Hide images */
-  content: url('/sprites/table/open_close/table1.png') url('/sprites/table/open_close/table2.png') url('/sprites/table/open_close/table3.png') url('/sprites/table/open_close/table4.png') url('/sprites/table/open_close/table5.png') url('/sprites/table/open_close/table6.png') url('/sprites/table/open_close/table7.png') url('/sprites/table/open_close/table8.png') url('/sprites/table/open_close/table9.png') url('/sprites/table/open_close/table10.png') url('/sprites/table/open_close/table11.png') url('/sprites/table/open_close/table12.png') url('/sprites/table/earth/earth_spin1.png') url('/sprites/table/earth/earth_spin2.png') url('/sprites/table/earth/earth_spin3.png') url('/sprites/table/earth/earth_spin4.png') url('/sprites/table/earth/earth_spin5.png') url('/sprites/table/earth/earth_spin6.png') url('/sprites/table/earth/earth_spin7.png') url('/sprites/table/earth/earth_spin8.png') url('/sprites/table/earth/earth_spin9.png') url('/sprites/table/earth/earth_spin10.png') url('/sprites/table/earth/earth_spin11.png') url('/sprites/table/earth/earth_spin12.png') url('/sprites/table/earth/earth_spin13.png') url('/sprites/table/earth/earth_spin14.png') url('/sprites/table/earth/earth_spin15.png') url('/sprites/table/earth/earth_spin16.png') url('/sprites/table/earth/earth_spin17.png') url('/sprites/table/earth/earth_spin18.png') url('/sprites/table/earth/earth_spin19.png') url('/sprites/table/earth/earth_spin20.png') url('/sprites/table/earth/earth_spin21.png') url('/sprites/table/earth/earth_spin22.png') url('/sprites/table/earth/earth_spin23.png') url('/sprites/table/earth/earth_spin24.png') url('/sprites/table/car/car_spin1.png') url('/sprites/table/car/car_spin2.png') url('/sprites/table/car/car_spin3.png') url('/sprites/table/car/car_spin4.png') url('/sprites/table/car/car_spin5.png') url('/sprites/table/car/car_spin6.png') url('/sprites/table/car/car_spin7.png') url('/sprites/table/car/car_spin8.png') url('/sprites/table/car/car_spin9.png') url('/sprites/table/car/car_spin10.png') url('/sprites/table/car/car_spin11.png') url('/sprites/table/car/car_spin12.png') url('/sprites/table/car/car_spin13.png') url('/sprites/table/car/car_spin14.png') url('/sprites/table/car/car_spin15.png') url('/sprites/table/car/car_spin16.png') url('/sprites/table/car/car_spin17.png') url('/sprites/table/car/car_spin18.png') url('/sprites/table/car/car_spin19.png') url('/sprites/table/car/car_spin20.png') url('/sprites/table/car/car_spin21.png') url('/sprites/table/car/car_spin22.png') url('/sprites/table/car/car_spin23.png') url('/sprites/table/car/car_spin24.png') url('/sprites/table/smiley/smiley_spin1.png') url('/sprites/table/smiley/smiley_spin2.png') url('/sprites/table/smiley/smiley_spin3.png') url('/sprites/table/smiley/smiley_spin4.png') url('/sprites/table/smiley/smiley_spin5.png') url('/sprites/table/smiley/smiley_spin6.png') url('/sprites/table/smiley/smiley_spin7.png') url('/sprites/table/smiley/smiley_spin8.png') url('/sprites/table/smiley/smiley_spin9.png') url('/sprites/table/smiley/smiley_spin10.png') url('/sprites/table/smiley/smiley_spin11.png') url('/sprites/table/smiley/smiley_spin12.png') url('/sprites/table/smiley/smiley_spin13.png') url('/sprites/table/smiley/smiley_spin14.png') url('/sprites/table/smiley/smiley_spin15.png') url('/sprites/table/smiley/smiley_spin16.png') url('/sprites/table/smiley/smiley_spin17.png') url('/sprites/table/smiley/smiley_spin18.png') url('/sprites/table/smiley/smiley_spin19.png') url('/sprites/table/smiley/smiley_spin20.png') url('/sprites/table/smiley/smiley_spin21.png') url('/sprites/table/smiley/smiley_spin22.png') url('/sprites/table/smiley/smiley_spin23.png') url('/sprites/table/smiley/smiley_spin24.png') url('/sprites/table/skateboard/skateboard_spin1.png') url('/sprites/table/skateboard/skateboard_spin2.png') url('/sprites/table/skateboard/skateboard_spin3.png') url('/sprites/table/skateboard/skateboard_spin4.png') url('/sprites/table/skateboard/skateboard_spin5.png') url('/sprites/table/skateboard/skateboard_spin6.png') url('/sprites/table/skateboard/skateboard_spin7.png') url('/sprites/table/skateboard/skateboard_spin8.png') url('/sprites/table/skateboard/skateboard_spin9.png') url('/sprites/table/skateboard/skateboard_spin10.png') url('/sprites/table/skateboard/skateboard_spin11.png') url('/sprites/table/skateboard/skateboard_spin12.png') url('/sprites/table/skateboard/skateboard_spin13.png') url('/sprites/table/skateboard/skateboard_spin14.png') url('/sprites/table/skateboard/skateboard_spin15.png') url('/sprites/table/skateboard/skateboard_spin16.png') url('/sprites/table/skateboard/skateboard_spin17.png') url('/sprites/table/skateboard/skateboard_spin18.png') url('/sprites/table/skateboard/skateboard_spin19.png') url('/sprites/table/skateboard/skateboard_spin20.png') url('/sprites/table/skateboard/skateboard_spin21.png') url('/sprites/table/skateboard/skateboard_spin22.png') url('/sprites/table/skateboard/skateboard_spin23.png') url('/sprites/table/skateboard/skateboard_spin24.png') url('/sprites/table/snabela/snabela_spin1.png') url('/sprites/table/snabela/snabela_spin2.png') url('/sprites/table/snabela/snabela_spin3.png') url('/sprites/table/snabela/snabela_spin4.png') url('/sprites/table/snabela/snabela_spin5.png') url('/sprites/table/snabela/snabela_spin6.png') url('/sprites/table/snabela/snabela_spin7.png') url('/sprites/table/snabela/snabela_spin8.png') url('/sprites/table/snabela/snabela_spin9.png') url('/sprites/table/snabela/snabela_spin10.png') url('/sprites/table/snabela/snabela_spin11.png') url('/sprites/table/snabela/snabela_spin12.png') url('/sprites/table/snabela/snabela_spin13.png') url('/sprites/table/snabela/snabela_spin14.png') url('/sprites/table/snabela/snabela_spin15.png') url('/sprites/table/snabela/snabela_spin16.png') url('/sprites/table/snabela/snabela_spin17.png') url('/sprites/table/snabela/snabela_spin18.png') url('/sprites/table/snabela/snabela_spin19.png') url('/sprites/table/snabela/snabela_spin20.png') url('/sprites/table/snabela/snabela_spin21.png') url('/sprites/table/snabela/snabela_spin22.png') url('/sprites/table/snabela/snabela_spin23.png') url('/sprites/table/snabela/snabela_spin24.png') url('/sprites/table/eyes/eyes1.png') url('/sprites/table/eyes/eyes2.png') url('/sprites/table/eyes/eyes3.png') url('/sprites/table/eyes/eyes4.png') url('/sprites/table/eyes/eyes5.png') url('/sprites/table/eyes/eyes6.png') url('/sprites/table/eyes/eyes7.png') url('/sprites/table/eyes/eyes8.png') url('/sprites/table/eyes/eyes9.png') url('/sprites/table/eyes/eyes10.png') url('/sprites/table/eyes/eyes11.png') url('/sprites/table/eyes/eyes12.png') url('/sprites/table/eyes/eyes13.png') url('/sprites/table/eyes/eyes14.png') url('/sprites/table/eyes/eyes15.png') url('/sprites/table/eyes/eyes16.png') url('/sprites/table/eyes/eyes17.png') url('/sprites/table/eyes/eyes18.png') url('/sprites/table/eyes/eyes19.png') url('/sprites/table/eyes/eyes20.png') url('/sprites/table/eyes/eyes21.png') url('/sprites/table/eyes/eyes22.png') url('/sprites/table/eyes/eyes23.png') url('/sprites/table/eyes/eyes24.png');
+  content: url('../sprites/table/open_close/table1.png') url('../sprites/table/open_close/table2.png') url('../sprites/table/open_close/table3.png') url('../sprites/table/open_close/table4.png') url('../sprites/table/open_close/table5.png') url('../sprites/table/open_close/table6.png') url('../sprites/table/open_close/table7.png') url('../sprites/table/open_close/table8.png') url('../sprites/table/open_close/table9.png') url('../sprites/table/open_close/table10.png') url('../sprites/table/open_close/table11.png') url('../sprites/table/open_close/table12.png') url('../sprites/table/earth/earth_spin1.png') url('../sprites/table/earth/earth_spin2.png') url('../sprites/table/earth/earth_spin3.png') url('../sprites/table/earth/earth_spin4.png') url('../sprites/table/earth/earth_spin5.png') url('../sprites/table/earth/earth_spin6.png') url('../sprites/table/earth/earth_spin7.png') url('../sprites/table/earth/earth_spin8.png') url('../sprites/table/earth/earth_spin9.png') url('../sprites/table/earth/earth_spin10.png') url('../sprites/table/earth/earth_spin11.png') url('../sprites/table/earth/earth_spin12.png') url('../sprites/table/earth/earth_spin13.png') url('../sprites/table/earth/earth_spin14.png') url('../sprites/table/earth/earth_spin15.png') url('../sprites/table/earth/earth_spin16.png') url('../sprites/table/earth/earth_spin17.png') url('../sprites/table/earth/earth_spin18.png') url('../sprites/table/earth/earth_spin19.png') url('../sprites/table/earth/earth_spin20.png') url('../sprites/table/earth/earth_spin21.png') url('../sprites/table/earth/earth_spin22.png') url('../sprites/table/earth/earth_spin23.png') url('../sprites/table/earth/earth_spin24.png') url('../sprites/table/car/car_spin1.png') url('../sprites/table/car/car_spin2.png') url('../sprites/table/car/car_spin3.png') url('../sprites/table/car/car_spin4.png') url('../sprites/table/car/car_spin5.png') url('../sprites/table/car/car_spin6.png') url('../sprites/table/car/car_spin7.png') url('../sprites/table/car/car_spin8.png') url('../sprites/table/car/car_spin9.png') url('../sprites/table/car/car_spin10.png') url('../sprites/table/car/car_spin11.png') url('../sprites/table/car/car_spin12.png') url('../sprites/table/car/car_spin13.png') url('../sprites/table/car/car_spin14.png') url('../sprites/table/car/car_spin15.png') url('../sprites/table/car/car_spin16.png') url('../sprites/table/car/car_spin17.png') url('../sprites/table/car/car_spin18.png') url('../sprites/table/car/car_spin19.png') url('../sprites/table/car/car_spin20.png') url('../sprites/table/car/car_spin21.png') url('../sprites/table/car/car_spin22.png') url('../sprites/table/car/car_spin23.png') url('../sprites/table/car/car_spin24.png') url('../sprites/table/smiley/smiley_spin1.png') url('../sprites/table/smiley/smiley_spin2.png') url('../sprites/table/smiley/smiley_spin3.png') url('../sprites/table/smiley/smiley_spin4.png') url('../sprites/table/smiley/smiley_spin5.png') url('../sprites/table/smiley/smiley_spin6.png') url('../sprites/table/smiley/smiley_spin7.png') url('../sprites/table/smiley/smiley_spin8.png') url('../sprites/table/smiley/smiley_spin9.png') url('../sprites/table/smiley/smiley_spin10.png') url('../sprites/table/smiley/smiley_spin11.png') url('../sprites/table/smiley/smiley_spin12.png') url('../sprites/table/smiley/smiley_spin13.png') url('../sprites/table/smiley/smiley_spin14.png') url('../sprites/table/smiley/smiley_spin15.png') url('../sprites/table/smiley/smiley_spin16.png') url('../sprites/table/smiley/smiley_spin17.png') url('../sprites/table/smiley/smiley_spin18.png') url('../sprites/table/smiley/smiley_spin19.png') url('../sprites/table/smiley/smiley_spin20.png') url('../sprites/table/smiley/smiley_spin21.png') url('../sprites/table/smiley/smiley_spin22.png') url('../sprites/table/smiley/smiley_spin23.png') url('../sprites/table/smiley/smiley_spin24.png') url('../sprites/table/skateboard/skateboard_spin1.png') url('../sprites/table/skateboard/skateboard_spin2.png') url('../sprites/table/skateboard/skateboard_spin3.png') url('../sprites/table/skateboard/skateboard_spin4.png') url('../sprites/table/skateboard/skateboard_spin5.png') url('../sprites/table/skateboard/skateboard_spin6.png') url('../sprites/table/skateboard/skateboard_spin7.png') url('../sprites/table/skateboard/skateboard_spin8.png') url('../sprites/table/skateboard/skateboard_spin9.png') url('../sprites/table/skateboard/skateboard_spin10.png') url('../sprites/table/skateboard/skateboard_spin11.png') url('../sprites/table/skateboard/skateboard_spin12.png') url('../sprites/table/skateboard/skateboard_spin13.png') url('../sprites/table/skateboard/skateboard_spin14.png') url('../sprites/table/skateboard/skateboard_spin15.png') url('../sprites/table/skateboard/skateboard_spin16.png') url('../sprites/table/skateboard/skateboard_spin17.png') url('../sprites/table/skateboard/skateboard_spin18.png') url('../sprites/table/skateboard/skateboard_spin19.png') url('../sprites/table/skateboard/skateboard_spin20.png') url('../sprites/table/skateboard/skateboard_spin21.png') url('../sprites/table/skateboard/skateboard_spin22.png') url('../sprites/table/skateboard/skateboard_spin23.png') url('../sprites/table/skateboard/skateboard_spin24.png') url('../sprites/table/snabela/snabela_spin1.png') url('../sprites/table/snabela/snabela_spin2.png') url('../sprites/table/snabela/snabela_spin3.png') url('../sprites/table/snabela/snabela_spin4.png') url('../sprites/table/snabela/snabela_spin5.png') url('../sprites/table/snabela/snabela_spin6.png') url('../sprites/table/snabela/snabela_spin7.png') url('../sprites/table/snabela/snabela_spin8.png') url('../sprites/table/snabela/snabela_spin9.png') url('../sprites/table/snabela/snabela_spin10.png') url('../sprites/table/snabela/snabela_spin11.png') url('../sprites/table/snabela/snabela_spin12.png') url('../sprites/table/snabela/snabela_spin13.png') url('../sprites/table/snabela/snabela_spin14.png') url('../sprites/table/snabela/snabela_spin15.png') url('../sprites/table/snabela/snabela_spin16.png') url('../sprites/table/snabela/snabela_spin17.png') url('../sprites/table/snabela/snabela_spin18.png') url('../sprites/table/snabela/snabela_spin19.png') url('../sprites/table/snabela/snabela_spin20.png') url('../sprites/table/snabela/snabela_spin21.png') url('../sprites/table/snabela/snabela_spin22.png') url('../sprites/table/snabela/snabela_spin23.png') url('../sprites/table/snabela/snabela_spin24.png') url('../sprites/table/eyes/eyes1.png') url('../sprites/table/eyes/eyes2.png') url('../sprites/table/eyes/eyes3.png') url('../sprites/table/eyes/eyes4.png') url('../sprites/table/eyes/eyes5.png') url('../sprites/table/eyes/eyes6.png') url('../sprites/table/eyes/eyes7.png') url('../sprites/table/eyes/eyes8.png') url('../sprites/table/eyes/eyes9.png') url('../sprites/table/eyes/eyes10.png') url('../sprites/table/eyes/eyes11.png') url('../sprites/table/eyes/eyes12.png') url('../sprites/table/eyes/eyes13.png') url('../sprites/table/eyes/eyes14.png') url('../sprites/table/eyes/eyes15.png') url('../sprites/table/eyes/eyes16.png') url('../sprites/table/eyes/eyes17.png') url('../sprites/table/eyes/eyes18.png') url('../sprites/table/eyes/eyes19.png') url('../sprites/table/eyes/eyes20.png') url('../sprites/table/eyes/eyes21.png') url('../sprites/table/eyes/eyes22.png') url('../sprites/table/eyes/eyes23.png') url('../sprites/table/eyes/eyes24.png');
 }
 
 /* Table stuff */
 #table {
-  background: url('/sprites/table/table_closed.png') no-repeat;
+  background: url('../sprites/table/table_closed.png') no-repeat;
   background-size: auto 100%;
   background-position-x: center;
   image-rendering: pixelated;
@@ -101,7 +101,7 @@ body::after {
 }
 
 #table.open {
-  background-image: url('/sprites/table/table_open.png');
+  background-image: url('../sprites/table/table_open.png');
 }
 
 #table.open.animated {
@@ -116,7 +116,7 @@ body::after {
   animation-duration: 0.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  background-image: url('/sprites/table/table_closed.png');
+  background-image: url('../sprites/table/table_closed.png');
 }
 
 
@@ -227,7 +227,7 @@ body::after {
 
 /* PC stuff */
 #pc {
-  background: url('/sprites/pc/pc_off.png') no-repeat;
+  background: url('../sprites/pc/pc_off.png') no-repeat;
   background-size: auto 100%;
   background-position-x: center;
   image-rendering: pixelated;
@@ -248,7 +248,7 @@ body::after {
 }
 
 #pc.active {
-  background-image: url('/sprites/pc/pc_on.png');
+  background-image: url('../sprites/pc/pc_on.png');
 }
 
 /* Power btn */
@@ -454,7 +454,7 @@ body::after {
 
 /* Eyes */
 #table.eyes {
-  background-image: url('/sprites/table/eyes/eyes1.png');
+  background-image: url('../sprites/table/eyes/eyes1.png');
   animation-name: eyes;
   animation-duration: 1s;
   animation-iteration-count: 1;
